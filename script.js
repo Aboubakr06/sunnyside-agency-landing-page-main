@@ -1,6 +1,6 @@
-let HumbergerBt = document.querySelector(".menu-el");
+let MenuBtn = document.querySelector(".menu-btn");
 let MenuOpen = document.querySelector(".menu");
 
-HumbergerBt.addEventListener("click", function() {
-  MenuOpen.classList.toggle("show");
+MenuBtn.addEventListener("click", function() {
+  MenuOpen.classList.toggle("open");
 });

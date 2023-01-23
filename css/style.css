@@ -582,6 +582,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -819,6 +823,14 @@ video {
   text-decoration-thickness: 2px;
 }
 
+.open {
+  display: flex;
+}
+
+.hover\:w-8:hover {
+  width: 2rem;
+}
+
 .hover\:bg-opacity-20:hover {
   --tw-bg-opacity: 0.2;
 }
@@ -844,10 +856,6 @@ video {
   .max-lg\:inset-x-6 {
     left: 1.5rem;
     right: 1.5rem;
-  }
-
-  .max-lg\:hidden {
-    display: none;
   }
 
   .max-lg\:min-w-\[80\%\] {
@@ -895,6 +903,10 @@ video {
 
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
+  }
+
+  .lg\:flex {
+    display: flex;
   }
 
   .lg\:hidden {
