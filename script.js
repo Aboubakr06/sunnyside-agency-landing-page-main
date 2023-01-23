@@ -1,7 +1,7 @@
-let MenuBtn = document.querySelector(".menu-btn");
-let MenuOpen = document.querySelector(".menu");
+let MenuBtn = document.getElementById("menu-btn");
+let MenuOpen = document.getElementById("menu");
 
 MenuBtn.addEventListener("click", function() {
-  console.log("Opened")
+  console.log("i'm here")
   MenuOpen.classList.toggle("open");
 });
