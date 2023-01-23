@@ -1,7 +1,6 @@
-let MenuBtn = document.getElementById("menu-btn");
-let MenuOpen = document.getElementById("menu");
+let MenuBtn = document.querySelector(".menu-btn");
+let MenuOpen = document.querySelector(".menu");
 
 MenuBtn.addEventListener("click", function() {
-  console.log("i'm here")
-  MenuOpen.classList.toggle("display:flex");
+  MenuOpen.classList.toggle("open");
 });
