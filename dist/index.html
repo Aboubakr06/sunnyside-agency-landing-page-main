@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+    rel="stylesheet">
+
+  <link href="/dist/output.css" rel="stylesheet">
+  
+</head>
+
+<body class="grid font-['Barlow']">
+  <main class="grid min-w-full">
+    <header
+      class="grid bg-[url('images/mobile/image-header.jpg')] bg-cover bg-no-repeat bg-bottom px-8 pt-12 pb-24 md:pb-80 lg:bg-[url('images/desktop/image-header.jpg')] lg:bg-cover">
+      <div class="flex justify-between max-lg:items-center">
+        <img class="lg:w-40" src="images/logo.svg" alt="Logo">
+        <a class="lg:hidden"><img src="images/icon-hamburger.svg"></a>
+        <div class="flex max-lg:hidden place-self-end items-center max-lg:py-10 gap-x-12 flex-wrap max-lg:gap-12  max-lg:flex-col max-lg:bg-clr-neutral-100 max-lg:absolute top-32 max-lg:inset-x-6 max-lg:min-w-[80%]">
+          <a class="lg:text-clr-neutral-100 text-clr-neutral-300" href="#">About</a>
+          <a class="lg:text-clr-neutral-100 text-clr-neutral-300" href="#">Services</a>
+          <a class="lg:text-clr-neutral-100 text-clr-neutral-300" href="#">Projects</a>
+          <a class="text-clr-neutral-500 bg-clr-primary-300 text-l font-black uppercase lg:bg-white hover:bg-opacity-20 lg:hover:text-clr-neutral-100 px-8 py-2 rounded-full"
+            href="#">Contact</a>
+        </div>
+      </div>
+      <h1 class="text-white text-center text-4xl mt-24 mb-12 lg:text-6xl font-black uppercase lg:my-24 font-['Fraunces'] tracking-widest">We are
+        creatives</h1>
+      <a class="place-self-center cursor-pointer"><img src="images/icon-arrow-down.svg" alt="Arrow down"></a>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+      <div class="bg-clr-neutral-100 place-self-center lg:px-36 p-6 lg:text-start text-center lg:row-auto row-start-2 row-span-3">
+        <h2 class="text-clr-neutral-500 text-2xl lg:text-5xl font-black font-['Fraunces'] mb-5 lg:mb-10">Transform your brand</h2>
+
+        <p class="text-clr-neutral-300 text-sm lg:text-lg mb-5 lg:mb-10">We are a full-service creative agency specializing in helping
+          brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+
+        <a class="text-clr-neutral-500 font-['Fraunces'] font-black uppercase underline decoration-clr-primary-300 decoration-2 hover:decoration-4"
+          href="#">Learn more</a>
+      </div>
+      <picture>
+        <source media="(min-width:64em)" srcset="images/desktop/image-transform.jpg">
+        <img class="min-w-full" src="images/mobile/image-transform.jpg" alt="" aria-hidden="true">
+      </picture>
+
+      <picture>
+        <source media="(min-width:64em)" srcset="images/desktop/image-stand-out.jpg">
+        <img class="min-w-full" src="images/mobile/image-stand-out.jpg" alt="" aria-hidden="true">
+      </picture>
+
+      <div class="bg-clr-neutral-100 place-self-center lg:px-36 p-6 lg:text-start text-center">
+        <h2 class="text-clr-neutral-500 text-2xl lg:text-5xl font-black font-['Fraunces'] mb-5 lg:mb-10">Stand out to the right audience
+        </h2>
+
+        <p class="text-clr-neutral-300 text-sm lg:text-lg mb-5 lg:mb-10">Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build
+          and extend your brand in digital places.</p>
+
+        <a class="text-clr-neutral-500 font-['Fraunces'] font-black uppercase underline decoration-clr-primary-400 decoration-2 hover:decoration-4"
+          href="#">Learn more</a>
+      </div>
+
+      <div class="grid relative">
+        <picture>
+          <source media="(min-width:64em)" srcset="images/desktop/image-graphic-design.jpg">
+          <img class="min-w-full" src="images/mobile/image-graphic-design.jpg" alt="" aria-hidden="true">
+        </picture>
+        
+        <div class="absolute grid place-self-end inset-x-4 lg:px-44 text-center">
+          <h2 class="place-self-center text-clr-primary-600 mb-5 text-xl lg:text-4xl font-black font-['Fraunces'] lg:mb-10">Graphic Design
+          </h2>
+          <p class="text-clr-primary-500 text-sm lg:text-lg mb-10">Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential
+            clients’ attention.</p>
+        </div>
+      </div>
+
+      <div class="grid relative">
+        <picture>
+          <source media="(min-width:64em)" srcset="images/desktop/image-photography.jpg">
+          <img class="min-w-full" src="images/mobile/image-photography.jpg" alt="" aria-hidden="true">
+        </picture>
+        
+        <div class="absolute grid place-self-end inset-x-4 lg:px-44 text-center">
+          <h2 class="place-self-center text-clr-primary-700 mb-5 text-xl lg:text-4xl font-black font-['Fraunces'] lg:mb-10">Photography
+          </h2>
+          <p class="text-clr-neutral-500 text-sm lg:text-lg mb-10">Increase your credibility by getting the most stunning,
+            high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="grid place-items-center px-4 py-16 lg:py-40 lg:px-32 text-center">
+
+      <h2 class="text-clr-neutral-200 uppercase tracking-widest lg:text-2xl font-black font-['Fraunces'] mb-24">Client
+        testimonials</h2>
+
+      <div class="grid grid-cols-1 lg:place-items-start gap-10 lg:grid-cols-3 lg:gap-4">
+
+        <div class="grid place-items-center">
+          <img class="mb-8 rounded-full w-24" src="images/image-emily.jpg" alt="Emimy R avatar">
+          <p class="text-clr-neutral-300 px-12 mb-8">We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.</p>
+          <p class="text-clr-neutral-200"><span
+              class="block text-clr-neutral-500 font-black font-['Fraunces'] text-xl mb-2">Emily R.
+            </span>Marketing Director</p>
+        </div>
+
+        <div class="grid place-items-center">
+          <img class="mb-8 rounded-full w-24" src="images/image-thomas.jpg" alt="Thomas S avatar">
+          <p class="text-clr-neutral-300 px-12 mb-8">Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and
+            enjoyable
+            experience.</p>
+          <p class="text-clr-neutral-200"><span
+              class="block text-clr-neutral-500 font-black font-['Fraunces'] text-xl mb-2">Thomas S.
+            </span>Chief Operating Officer</p>
+        </div>
+
+        <div class="grid place-items-center">
+          <img class="mb-8 rounded-full w-24" src="images/image-jennie.jpg" alt="Jennie F avatar">
+          <p class="text-clr-neutral-300 px-12 mb-8">Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!</p>
+          <p class="text-clr-neutral-200"><span
+              class="block text-clr-neutral-500 font-black font-['Fraunces'] text-xl mb-2">Jennie F.
+            </span>Business Owner</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 lg:grid-cols-4">
+      <picture>
+        <source media="(min-width:64em)" srcset="images/desktop/image-gallery-milkbottles.jpg">
+        <img class="min-w-full" src="images/mobile/image-gallery-milkbottles.jpg" alt="" aria-hidden="true">
+      </picture>
+      <picture>
+        <source media="(min-width:64em)" srcset="images/desktop/image-gallery-orange.jpg">
+        <img class="min-w-full" src="images/mobile/image-gallery-orange.jpg" alt="" aria-hidden="true">
+      </picture>
+      <picture>
+        <source media="(min-width:64em)" srcset="images/desktop/image-gallery-sugarcubes.jpg">
+        <img class="min-w-full" src="images/mobile/image-gallery-sugar-cubes.jpg" alt="" aria-hidden="true">
+      </picture>
+      <picture>
+        <source media="(min-width:64em)" srcset="images/desktop/image-gallery-cone.jpg">
+        <img class="min-w-full" src="images/mobile/image-gallery-cone.jpg" alt="" aria-hidden="true">
+      </picture>
+    
+    </div>
+  </main>
+  <footer class="grid bg-clr-primary-510 py-11 place-items-center">
+    <img class="mb-8 lg:w-40" src="images/logo-1.svg" alt="Logo">
+    <div class="flex gap-8 lg:gap-16 mb-16">
+      <a class="text-clr-primary-500 hover:text-clr-neutral-100 lg:text-2xl" href="#">About</a>
+      <a class="text-clr-primary-500 hover:text-clr-neutral-100 lg:text-2xl" href="#">Services</a>
+      <a class="text-clr-primary-500 hover:text-clr-neutral-100 lg:text-2xl" href="#">Projects</a>
+    </div>
+    <div class="flex gap-4 mb-8">
+      <a class="hover:opacity-75" href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+      <a class="hover:opacity-75" href="#"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+      <a class="hover:opacity-75" href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+      <a class="hover:opacity-75" href="#"><img src="images/icon-pinterest.svg" alt="Pinterest"></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
