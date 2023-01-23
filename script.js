@@ -3,5 +3,5 @@ let MenuOpen = document.querySelector(".menu");
 
 MenuBtn.addEventListener("click", function() {
   console.log("hello");
-  MenuOpen.classList.toggle("open");
+  MenuOpen.classList.toggle("active");
 });
