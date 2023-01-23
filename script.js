@@ -3,5 +3,5 @@ let MenuOpen = document.getElementById("menu");
 
 MenuBtn.addEventListener("click", function() {
   console.log("i'm here")
-  MenuOpen.classList.toggle("open");
+  MenuOpen.classList.toggle("display:flex");
 });
