@@ -823,10 +823,6 @@ video {
   text-decoration-thickness: 2px;
 }
 
-.open {
-  display: flex;
-}
-
 .hover\:w-8:hover {
   width: 2rem;
 }
