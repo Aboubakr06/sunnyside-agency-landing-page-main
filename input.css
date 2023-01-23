@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .open {
-    @apply display: flex;
+    @apply flex;
 }
