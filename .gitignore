@@ -5,7 +5,7 @@
 *.sketch
 *.fig
 node_modules/
-package-lock.json/
+
 
 
 # Avoid accidental XD upload if you convert the design file
