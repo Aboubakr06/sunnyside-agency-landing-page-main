@@ -582,10 +582,6 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .w-24 {
   width: 6rem;
 }
@@ -668,10 +664,6 @@ video {
 .bg-clr-primary-510 {
   --tw-bg-opacity: 1;
   background-color: hsl(168 34% 61% / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'images\/mobile\/image-header\.jpg\'\)\] {
-  background-image: url('images/mobile/image-header.jpg');
 }
 
 .bg-cover {
@@ -823,6 +815,16 @@ video {
   text-decoration-thickness: 2px;
 }
 
+header {
+  background-image: url("/images/mobile/image-header.jpg");
+}
+
+@media (min-width: 1024px) {
+  header {
+    background-image: url("/images/desktop/image-header.jpg");
+  }
+}
+
 .hover\:w-8:hover {
   width: 2rem;
 }
@@ -852,6 +854,10 @@ video {
   .max-lg\:inset-x-6 {
     left: 1.5rem;
     right: 1.5rem;
+  }
+
+  .max-lg\:hidden {
+    display: none;
   }
 
   .max-lg\:min-w-\[80\%\] {
@@ -901,10 +907,6 @@ video {
     margin-bottom: 2.5rem;
   }
 
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:hidden {
     display: none;
   }
@@ -940,10 +942,6 @@ video {
   .lg\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-\[url\(\'images\/desktop\/image-header\.jpg\'\)\] {
-    background-image: url('images/desktop/image-header.jpg');
   }
 
   .lg\:bg-cover {
